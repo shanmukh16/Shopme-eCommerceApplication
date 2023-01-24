@@ -2692,3 +2692,316 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2023-01-24 10:11:21.840
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.core 4 2 2023-01-24 10:58:39.013
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:176)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-01-24 10:58:39.014
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:176)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 2 2023-01-24 11:01:29.402
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:176)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-01-24 11:01:29.403
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResourceDelta.getKind()" because "resourceDelta" is null
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:773)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.handleAffectedChildren(PackageExplorerContentProvider.java:815)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.processDelta(PackageExplorerContentProvider.java:758)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.elementChanged(PackageExplorerContentProvider.java:139)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1755)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1743)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1576)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1552)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2273)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2163)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:176)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2023-01-24 11:01:44.499
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-24 11:01:44.499
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-01-24 11:30:47.199
+!MESSAGE Builder must not be set
+!STACK 0
+java.lang.IllegalStateException: Builder must not be set
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parseToHtml(MarkupParser.java:114)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getHtmlDocString(LSPEclipseUtils.java:985)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:351)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-01-24 11:30:47.200
+!MESSAGE Builder must not be set
+!STACK 0
+java.lang.IllegalStateException: Builder must not be set
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parseToHtml(MarkupParser.java:114)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getHtmlDocString(LSPEclipseUtils.java:985)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:351)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-01-24 11:57:21.911
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:47:58.971
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2626, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:47:59.284
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2626, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:47:59.284
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2626, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:47:59.308
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2626, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:47:59.309
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2626, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:48:09.818
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2641, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:48:09.818
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2641, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:48:09.818
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2641, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:48:16.525
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2655, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:48:16.525
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2655, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:48:17.013
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2655, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:48:17.014
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2655, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:51:51.248
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2604, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:51:51.248
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2604, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:51:51.734
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2604, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:51:51.735
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2604, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:52:18.020
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2633, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:52:18.020
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2633, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:52:18.508
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2633, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:52:18.508
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2633, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:52:25.510
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2647, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:52:25.511
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2647, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:52:25.995
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2647, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 17:52:25.996
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2647, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-01-24 17:54:54.088
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-01-24 18:04:09.643
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:09.807
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3713, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:09.807
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3713, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:09.807
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3713, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:10.293
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3713, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:10.293
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3713, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:29.406
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3737, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:29.406
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3737, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:29.406
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3737, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:29.893
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3737, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:10:29.893
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3737, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:21:27.708
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3783, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:21:27.709
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3783, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:21:28.196
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3783, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:21:28.196
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3783, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:33:30.318
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4267, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:33:30.319
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4267, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:33:30.804
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4267, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-01-24 18:33:30.804
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4267, state before: 10 after: 4
