@@ -92,4 +92,13 @@ public class UserRepositoryTests {
 		
 //		repo.findById(userId)
 	}
+	
+	
+	@Test
+	public void testGetUserByEmail() {
+		String email = "leomessi@fifa.com";
+		User user = repo.getUserByEmail(email);
+		
+		assertThat(user).isNotNull();
+	}
 }
